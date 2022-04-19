@@ -1,0 +1,352 @@
+@media screen and (max-width: 320px) {
+    
+/*Barra De Navegacion*/
+    
+    .container-fluid .navbar-brand img {
+        width: 100px;
+        height: 80px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        font-size: 15px;
+    }
+
+    /*Main.index*/
+
+    .main-container-index {
+        background-position: 70%;
+        font-size: 10px;
+}   
+
+    .contenido-titulos {
+        width: 98vw;
+        height: 210px;
+}
+
+    .main-container-index .contenido-titulos h1 {
+        font-size: 27px;
+}
+
+    .main-container-index .contenido-titulos h2 {
+        font-size: 23px;
+}
+
+    .main-container-index .contenido-titulos h3 {
+        font-size: 18px;
+}
+
+    .main-container-index .contenido-titulos h4 {
+        font-size: 15px;
+}
+
+    .contenido-contacto {
+        width: 98vw;
+        font-size: 10px;
+}
+
+    .contenido-contacto h3 {
+        font-size: 18px;
+}
+
+    /*section-index*/
+
+    .section-container-index {
+        background-image: radial-gradient(black, rgb(15, 15, 15));
+        display: flex;
+        flex-direction: column;
+}
+
+    .img-banda-container {
+
+}
+
+    .section-container-index .img-banda-container img {
+        position: relative;
+        margin: -30px 0 10px 0;
+        width: 100vw;
+        height: 50vh;
+}
+
+    .section-container-index .contenido-equipamiento h1 {
+        font-size: 27px;
+}
+
+    .section-container-index .contenido-equipamiento h2 {
+        font-size: 21px;
+}
+
+    .section-container-index .contenido-equipamiento {
+        font-size: 15px;
+}
+
+/*footer*/
+
+    .logo-izq-container{
+        display: none;
+    }
+
+    .logo-der-container {
+        display: none;
+    }
+
+    .full-content-center{
+        font-size: 17.5px;
+    }
+
+    .full-content-center .logo-med-container {
+        font-size: 11px;
+    }
+
+    .full-content-center h3 {
+        font-size: 16px
+    }
+
+    .redes-container {
+        font-size: 12px;
+    }
+
+    .full-content-center h4 {
+        font-size: 12px;
+    }
+
+    /*nosotros.html*/
+
+/*main nosotros.html*/
+
+    .main-container-nosotoros .imagen-estudio-container img{
+        height: 300px;
+}
+
+    .main-container-nosotoros .contenido-nosotros {
+        height: 450px;
+}
+
+/*section nosotros.html*/
+
+    .contenido-nosotros h2{
+        font-size: 20px;
+}
+
+    .contenido-nosotros p {
+        font-size: 15px;
+}
+
+    .section-container-nosotros{
+        height: 60vh;
+}
+
+
+    .contenido-servicios h2 {
+        font-size: 20px;
+}
+
+    .contenido-servicios p {
+        font-size: 15px;
+}
+
+/* Iconos nosotros.html*/
+
+    .iconos-servicios-container{
+        width: 100vw;
+}
+
+    .iconos-servicios-container .iconos {
+        font-size: 12px;
+}
+
+    .iconos-servicios-container .iconos h4 {
+        font-size: 15px;
+}
+
+
+
+/*imagenes finales nosotros*/
+
+    .end-img-nosotros div img {
+        width: 320px;
+        height: 350px;
+}
+
+    .boton-galeria-nosotros  button {
+        font-size: 12px;
+}
+
+    
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 321px) and (max-width: 480px){
+
+/*Barra De Navegacion*/
+    
+.container-fluid .navbar-brand img {
+    width: 100px;
+    height: 80px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 15px;
+}
+
+/*Main.index*/
+
+.main-container-index {
+    background-position: 70%;
+    font-size: 10px;
+}   
+
+.contenido-titulos {
+    width: 98vw;
+    height: 210px;
+}
+
+.main-container-index .contenido-titulos h1 {
+    font-size: 27px;
+}
+
+.main-container-index .contenido-titulos h2 {
+    font-size: 23px;
+}
+
+.main-container-index .contenido-titulos h3 {
+    font-size: 18px;
+}
+
+.main-container-index .contenido-titulos h4 {
+    font-size: 15px;
+}
+
+.contenido-contacto {
+    width: 98vw;
+    font-size: 10px;
+}
+
+.contenido-contacto h3 {
+    font-size: 18px;
+}
+
+/*section-index*/
+
+.section-container-index {
+    background-image: radial-gradient(black, rgb(15, 15, 15));
+    display: flex;
+    flex-direction: column;
+}
+
+.img-banda-container {
+
+}
+
+.section-container-index .img-banda-container img {
+    position: relative;
+    margin: -30px 0 10px 0;
+    width: 100vw;
+    height: 50vh;
+}
+
+.section-container-index .contenido-equipamiento h1 {
+    font-size: 27px;
+}
+
+.section-container-index .contenido-equipamiento h2 {
+    font-size: 23px;
+}
+
+.section-container-index .contenido-equipamiento {
+    font-size: 15px;
+}
+
+/*footer*/
+
+.logo-izq-container{
+    display: none;
+}
+
+.logo-der-container {
+    display: none;
+}
+
+.full-content-center{
+    font-size: 17.5px;
+}
+
+.full-content-center .logo-med-container {
+    font-size: 11px;
+}
+
+.full-content-center h3 {
+    font-size: 16px
+}
+
+.redes-container {
+    font-size: 12px;
+}
+
+.full-content-center h4 {
+    font-size: 12px;
+}
+
+/*nosotros.html*/
+
+/*main nosotros.html*/
+
+.main-container-nosotoros .imagen-estudio-container img{
+    height: 300px;
+}
+
+.main-container-nosotoros {
+    height: 130vh;
+}
+
+/*section nosotros.html*/
+
+.section-container-nosotros {
+    height: 50vh;
+}
+
+.contenido-nosotros h2{
+    font-size: 20px;
+}
+
+.contenido-nosotros p {
+    font-size: 15px;
+}
+
+.contenido-servicios h2 {
+    font-size: 20px;
+}
+
+.contenido-servicios p {
+    font-size: 15px;
+}
+
+/* Iconos nosotros.html*/
+
+.iconos-servicios-container{
+    width: 100vh;
+}
+
+.iconos-servicios-container .iconos {
+    font-size: 12px;
+}
+
+.iconos-servicios-container .iconos h4 {
+    font-size: 15px;
+}
+
+
+
+/*imagenes finales nosotros*/
+
+
+.end-img-nosotros div img {
+    width: 95vw;
+    height: 60vh;
+}
+
+.boton-galeria-nosotros  button {
+    font-size: 12px;
+}
+
+}
