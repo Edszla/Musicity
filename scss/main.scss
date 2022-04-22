@@ -1,0 +1,166 @@
+@import "universal";
+
+//variables
+$color-opacity:rgba(0, 0, 0, 0.332);
+$gradient-all:(black, rgb(24, 24, 24));
+
+//nesting
+
+/*Barra De Navegacion*/
+
+.container-fluid {
+    img {
+        width: 150px;
+        height: 100px;
+    }
+    .navbar-nav {
+        .nav-item {
+            font-size: 1.5em;
+            margin: 10px;
+        }
+    
+    } 
+} 
+
+
+/*Main.index*/
+
+.main-container-index {
+    height: 82vh;
+    background-image: url('../assets/img/microofono.jpg');
+    background-size: cover;
+    background-position-y: -4.5em;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    .contenido-titulos {
+        grid-column: 1/6;
+        grid-row: 2/5;
+        color: white;
+        font-size: 1.5em;
+        background-color:$color-opacity;
+        text-align: center;
+        animation-name: fadeInLeft;
+        animation-duration: 1s;
+        h4{
+            margin-top: 1.25em;
+        }
+    }
+    .contenido-contacto {
+        grid-column: 1/6;
+        grid-row: 7/8;
+        color: white;
+        font-size: 1.56em;
+        background-color: $color-opacity;
+        line-height: 2;
+        text-align: center;
+        animation-name: fadeInLeft;
+        animation-duration: 1s;
+        button {
+            font-size: 0.7em;
+            padding: 0.5em 1em;
+            border-radius: 2em;
+            cursor: pointer;
+            transition-property: height 2s, background-color;
+            transition-duration: 10s;
+            transition-timing-function: linear;
+            &:hover {
+                background-color: black;
+                height: 3.1em;
+            }
+        }
+    }
+}
+
+
+/*section-index*/
+
+.section-container-index {
+    background-image: radial-gradient($gradient-all);
+    display: flex;
+    .img-banda-container{
+        img {
+            width: 50vw;
+            height: 80vh;
+            margin: 1em;
+        }
+    } 
+    .contenido-equipamiento {
+        padding: 1.25em;
+        font-size: 1.5em;
+        text-align: center;
+        line-height: 1.5;
+        color: white;
+        button {
+            font-size: 0.7em;
+            padding: 0.5em 1em;
+            margin-top: 0.6em;
+            border-radius: 2em;
+            cursor: pointer;
+            transition-property: height 2s, background-color;
+            transition-duration: 10s;
+            transition-timing-function: linear;
+            &:hover {
+                background-color: black;
+                height: 3.1em;
+            }
+        }
+    }
+}
+
+
+/*footer*/
+
+.footer-container {
+    background-image: radial-gradient($gradient-all);
+    display: grid;
+    grid-template-areas: 
+    "logo-izquierda     logo-redes    logo-derecha";
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+        width: 9.4em;
+        height: 6.25em;
+    }
+}
+
+.logo-izq-container {
+    grid-area: logo-izquierda;
+    transform: translate(4em);
+    transition: all 0.3s;
+    &:hover {
+        transform: translate(1px);
+    }
+}
+
+.full-content-center {
+    grid-area: logo-redes;
+    display: grid;
+    color: white;
+    justify-items: center;
+    grid-row-gap: 1em;
+    margin: 1em;
+    .redes-container{
+        img{
+            width: 3.25em;
+            height: 3.25em;
+            padding: 0.75em;
+            cursor: pointer;
+        }
+    }
+}
+
+
+.logo-der-container {
+    grid-area: logo-derecha;
+    transform: translate(-4em);
+    transition: all 0.3s;
+    &:hover {
+        transform: translate(1px);
+    }
+}
+
+
+
+
