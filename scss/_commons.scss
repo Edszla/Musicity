@@ -1,0 +1,17 @@
+//variables
+$color-opacity:rgba(0, 0, 0, 0.332);
+$gradient-all:(black, rgb(24, 24, 24));
+
+$varios: (
+    'gradiente': (black, rgb(24, 24, 24)),
+    'opacity': rgba(0, 0, 0, 0.332),
+);
+
+@mixin logo-derecha {
+    grid-area: logo-derecha;
+    transform: translate(-4em);
+    transition: all 0.3s;
+    &:hover {
+        transform: translate(1px);
+    }
+}

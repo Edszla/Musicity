@@ -1,0 +1,100 @@
+/*Main.index*/
+
+.main-container-index {
+    height: 82vh;
+    background-image: url('../assets/img/microofono.jpg');
+    background-size: cover;
+    background-position-y: -4.5em;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    .contenido-titulos {
+        grid-column: 1/6;
+        grid-row: 2/5;
+        color: rgb(233, 220, 220);
+        font-size: 1.56em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: rgba(0, 0, 0, 0.332);
+        text-align: center;
+        animation-name: fadeInLeft;
+        animation-duration: 1s;
+        h3{
+            font-style: italic
+        }
+        h4{
+            margin-top: 1.25em;
+        }
+    }
+    .contenido-contacto {
+        grid-column: 1/6;
+        grid-row: 7/8;
+        color: rgb(233, 220, 220);
+        font-size: 1.56em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: rgba(0, 0, 0, 0.332);
+        text-align: center;
+        line-height: 2;
+        animation-name: fadeInLeft;
+        animation-duration: 1s;
+        button {
+            font-size: 0.7em;
+            padding: 0.5em 1em;
+            border-radius: 2em;
+            cursor: pointer;
+            transition-property: height 2s, background-color;
+            transition-duration: 10s;
+            transition-timing-function: linear;
+            &:hover {
+                background-color: black;
+                height: 3.1em;
+            }
+        }
+    }
+}
+
+/*section-index*/
+
+.section-container-index {
+    background-image: radial-gradient((black, rgb(24, 24, 24)));
+    display: flex;
+    align-items: center;
+}
+
+.img-banda-container{
+    img {
+        width: 50vw;
+        height: 80vh;
+        margin: 1em;
+    }
+} 
+
+.contenido-equipamiento {
+    padding: .5em;
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: rgb(233, 220, 220);
+    h1{
+        padding-bottom: .5em;
+    }
+    h2{
+        padding-bottom: .5em;
+        font-style: italic;
+    }
+    button {
+        font-size: 0.7em;
+        padding: 0.5em 1em;
+        margin-top: 0.6em;
+        border-radius: 2em;
+        cursor: pointer;
+        transition-property: height 2s, background-color;
+        transition-duration: 10s;
+        transition-timing-function: linear;
+        &:hover {
+            background-color: black;
+            height: 3.1em;
+        }
+    }
+}
