@@ -1,0 +1,19 @@
+/*Barra De Navegacion*/
+
+.navbar {
+    background-image: radial-gradient((black, rgb(22, 22, 22)));
+    img {
+        width: 7em;
+        height: 5em;
+    }
+}
+
+#navbarNav{
+    font-size: 1.6em;
+    font-family: cursive;
+    .navbar-nav{
+        width: 88vw;
+        justify-content: space-evenly;
+    }
+}
+    

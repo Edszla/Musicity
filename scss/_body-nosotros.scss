@@ -1,0 +1,113 @@
+/*main nosotros.html*/
+
+.main-container-nosotoros{
+    background-image: radial-gradient((black, rgb(24, 24, 24)));
+    display: flex;
+    flex-direction: column;
+    img{
+        padding: 0 1.5em 0 1.5em;
+        width: 100vw;
+        height: 90vh;
+        animation-name: fadeIn;
+        animation-duration: 1s;
+        
+    }
+    .contenido-nosotros {
+        text-align: center;
+        font-size: 1.5em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: lighter;
+        color: white;
+        margin-top: 2em;
+        p {
+            margin: 1.5em 1em;
+        }
+    }
+}
+
+/*section nosotros.html*/
+
+.section-container-nosotros {
+    background-image: radial-gradient((black, rgb(24, 24, 24)));
+    display: grid;
+    grid-template-columns: repeat(12 ,1fr);
+    .contenido-servicios {
+        grid-column: 1/13;
+        text-align: center;
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: lighter;
+        margin-top: 2em;
+        p {
+            margin: 1.5em 1em;
+        }
+    }
+}
+
+/* Iconos nosotros.html*/
+
+.iconos-servicios-container {
+    background-image: radial-gradient(rgb(68, 63, 63), rgb(59, 57, 57));
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    .iconos {
+        flex-direction: column;
+        text-align: center;
+        line-height: 2;
+        align-items: center;
+        color: black ;
+        cursor: pointer;
+        &:hover {
+            color: rgb(116, 13, 13);
+        }
+        img {
+            width: 3.25em;
+            height: 3.25em;
+        }
+    }
+}
+
+/*imagenes finales nosotros*/
+
+.end-img-nosotros {
+    width: 100vw;
+    background-image: radial-gradient((black, rgb(24, 24, 24)));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em 0.1em;
+    gap: 3em;
+    img {
+        width: 37.5em;
+        height: 28em;
+        border-radius: 10%;
+        cursor: pointer;
+        &:hover {
+            border: 5px solid transparent;
+        }
+    }
+}
+
+/*boton galeria*/
+
+.boton-galeria-nosotros {
+    background-image: radial-gradient((black, rgb(24, 24, 24)));
+    display: flex;
+    justify-content: center;
+    button {
+        width: 8em;
+        height: 3em;
+        border-radius: 2em;
+        cursor: pointer;
+        margin: 10px;
+        &:hover {
+    border: solid 3px black;
+        }
+    }
+}

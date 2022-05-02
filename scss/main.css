@@ -1,0 +1,83 @@
+/*Barra De Navegacion*/
+.container-fluid img {
+  width: 150px;
+  height: 100px;
+}
+
+.navbar-nav .nav-item {
+  font-size: 1.5em;
+  margin: 10px;
+}
+
+/*Main.index*/
+.main-container-index {
+  height: 82vh;
+  background-image: url("../assets/img/microofono.jpg");
+  background-size: cover;
+  background-position-y: -4.5em;
+  max-width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[10];
+      grid-template-columns: repeat(10, 1fr);
+  -ms-grid-rows: (1fr)[8];
+      grid-template-rows: repeat(8, 1fr);
+}
+
+.main-container-index .contenido-titulos {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
+  grid-column: 1/6;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 3;
+  grid-row: 2/5;
+  color: white;
+  font-size: 1.5em;
+  background-color: rgba(0, 0, 0, 0.332);
+  text-align: center;
+  -webkit-animation-name: fadeInLeft;
+          animation-name: fadeInLeft;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.main-container-index .contenido-titulos h4 {
+  margin-top: 1.25em;
+}
+
+.contenido-contacto {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
+  grid-column: 1/6;
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 1;
+  grid-row: 7/8;
+  color: white;
+  font-size: 1.56em;
+  background-color: rgba(0, 0, 0, 0.332);
+  line-height: 2;
+  text-align: center;
+  -webkit-animation-name: fadeInLeft;
+          animation-name: fadeInLeft;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.contenido-contacto button {
+  font-size: 0.7em;
+  padding: 0.5em 1em;
+  border-radius: 2em;
+  cursor: pointer;
+  -webkit-transition-property: height 2s, background-color;
+  transition-property: height 2s, background-color;
+  -webkit-transition-duration: 10s;
+          transition-duration: 10s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.contenido-contacto button:hover {
+  background-color: black;
+  height: 3.1em;
+}
+/*# sourceMappingURL=main.css.map */

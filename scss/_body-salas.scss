@@ -1,0 +1,148 @@
+/*salas.html*/
+
+.contenido-salas {
+    background-image: radial-gradient((black, rgb(24, 24, 24)));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    h1{
+        margin: 40px 0 30px 0;
+    }
+    p{
+        font-size: 1.5em;
+    }
+
+}
+
+.section-salas {
+    background-image: radial-gradient((black, rgb(24, 24, 24)));
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    gap: 20vh;
+    color: white;
+}
+
+.box-sala1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    img{
+        width: 650px;
+        height: 450px;
+        border-radius: 10%;
+        cursor: pointer;
+        &:hover {
+            border: 5px solid transparent;
+        }
+    }
+    .contenido-sala1 {
+        display: flex;
+        width: 38%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        h4 {
+            font-size: 1.7em;
+        }
+        p{
+            text-align: center;
+            font-size: 1.2em;
+        }
+    }
+}
+
+.box-sala2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    img{
+        width: 650px;
+        height: 450px;
+        border-radius: 10%;
+        cursor: pointer;
+        &:hover {
+            border: 5px solid transparent;
+        }
+    }
+    .contenido-sala2 {
+        display: flex;
+        width: 38%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        h4 {
+            font-size: 1.7em;
+        }
+        p{
+            text-align: center;
+            font-size: 1.2em;
+        }
+    }
+}
+
+.box-sala3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    img{
+        width: 650px;
+        height: 450px;
+        border-radius: 10%;
+        cursor: pointer;
+        &:hover {
+            border: 5px solid transparent;
+        }
+    }
+    .contenido-sala3 {
+        display: flex;
+        width: 38%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        h4 {
+            font-size: 1.7em;
+        }
+        p{
+            text-align: center;
+            font-size: 1.2em;
+        }
+    }
+}
+
+.box-studio {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;    
+    justify-content: space-around;
+    img{
+        width: 650px;
+        height: 450px;
+        border-radius: 10%;
+        cursor: pointer;
+        &:hover {
+            border: 5px solid transparent;
+        }
+    }
+    .contenido-studio {
+        display: flex;
+        width: 38%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        h4 {
+            font-size: 1.7em;
+        }
+        p{
+            text-align: center;
+            font-size: 1.2em;
+        }
+    }
+}

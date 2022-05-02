@@ -4,46 +4,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="modernas salas con equipamiento premium y servicios de calidad">
+    <meta name="keywords" content="salas, equipamiento, instrumentos, alquiler, estudio, grabacion">
     <!--favicon-->
     <link rel="shortcut icon" href="../assets/logo/musicity.png" type="image/x-icon">
     <!--fonts awesome-->
     <script src="https://kit.fontawesome.com/77ab37af2d.js" crossorigin="anonymous"></script>
     <!--animate.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--media queries-->
     <link rel="stylesheet" href="../css/mediaqueries.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
     <!--estilos css-->
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/main.css">
     <title>Musicity</title>
 </head>
 <body>
 
     <header>
         <!--Barra de Navegacion-->
-        
-        <nav class="nav-container">
-            
-            <img class="logo" src="../assets/logo/musicity.png" alt="logo-musicity">
-            
-            <ul class="list">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./salas.html">Salas</a></li>
-                <li><a href="./galeria.html">Galeria</a></li>
-                <li><a href="./reservas.html">Reservas</a></li>
-            </ul>
 
-            <div class="menu-bar">
-                <i class="fa-solid fa-bars"></i>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            
+            <div class="container-fluid">
+                
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../assets/logo/musicity.png" alt="musicity">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav" >
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./salas.html">Salas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./reservas.html">Reservas</a>
+                        </li>
+                    </ul>
+                </div>
+                
             </div>
-
         </nav>
 
     </header>
     
     <!--------------------------------------------completar-------------------------------------------------------->
 
-    <!--------------------------------------------completar-------------------------------------------------------->
+    <main>
+
+        <div class="contenido-salas">
+            <h1>Nuestras Salas</h1>
+            <p>Nuestra sala te asiste en todo lo que haga falta, respetando los gustos y las preferencias de cada uno. 
+                Modernas salas asistidas por operador desde control room. Aire Acondicionado. Alquiler de instrumentos. Equipamiento de primera línea: Marshall - Ampeg - Hartke - Solidrums - Shure - JBL.</p>
+        </div>
+
+        <section class="section-salas">
+
+            <div class="box-sala1" data-aos="fade-up" data-aos-duration="1300">
+                <div class="img-sala1"><img src="../assets/img/Sala Chica.jpg" alt="sala 1"></div>
+
+                <div class="contenido-sala1">
+                    <h4>Sala 1</h4>
+                    <p>Esta sala está pensada para pequeñas formaciones, ya sean trios o cuartetos.
+                    Operación directa desde la misma sala.
+                    Esta sala tambien es ofrecida para bateristas que no dispongan de lugar de practica (consultar precio).
+                    Equipada con 2 cajas aereas y una consola potenciada Soundtech con efectos por canal y un ecualizador gráfico general(además de los paramétricos por canal) para que usted mismo regule su sonido.
+                    Equipada con Aire acondicionado Split y 2 tipos de iluminación, que harán que su ensayo sea mas placentero.
+                    Mantenimiento permanente.</p>
+                </div>
+            </div>
+
+            <div class="box-sala2" data-aos="fade-up" data-aos-duration="1300">
+                <div class="img-sala2"><img src="../assets/img/Sala Mediana.jpg" alt="sala 2"></div>
+
+                <div class="contenido-sala2">
+                    <h4>Sala 2</h4>
+                    <p>Con equipamiento de alta gama, nuestra segunda sala ofrece sus amplias dimensiones donde podrán realizar ensayos bandas numerosas. Así mismo garantiza una excelente audición de voces e instrumentos (tales como guitarras acústicas, pianos, etc).
+                    Cuenta con su propio compresor y ecualizador stereo para garantizar un sonido compacto y totalmente libre de acoples.
+                    Hasta 2 mezclas individuales (2 Cajas aereas, 2 monitores de piso).
+                    Esta misma esta equipada y operada por un asistente calificado desde un control room.
+                    Equipada con Aire acondicionado Split y 2 tipos de iluminación, que harán que su ensayo sea mas placentero.
+                    Mantenimiento permanente.</p>
+                </div>
+            </div>
+
+            <div class="box-sala3" data-aos="fade-up" data-aos-duration="1300"> 
+                <div class="img-sala3"><img src="../assets/img/Sala Grande.jpg" alt="sala 3"></div>
+
+                <div class="contenido-sala3">
+                    <h4>Sala 3</h4>
+                    <p>Nuestra Sala 3 es la mas amplia y reconfortante. Gracias a un set de equipos de primera gama y dadas sus amplias         dimensiones podrán realizarse ensayos de bandas numerosas.
+                    El armado y disposición del sonido ofrece una excelente audición de voces e instrumentos (tales como guitarras acústicas,pianos, etc.)
+                    Cuenta con su propio compresor y ecualizador stereo para garantizar un sonido compacto y totalmente libre de acoples.
+                    Hasta 3 mezclas individuales (2 Cajas aereas, 4 monitores de piso de los cuales 2 son exclusivo para voces).
+                    Equipada con Aire acondicionado Split y 2 tipos de iluminación que harán que su ensayo sea mas placentero.
+                    Mantenimiento permanente.</p>
+                </div>
+            </div>
+
+            <div class="box-studio" data-aos="fade-up" data-aos-duration="1300">
+                <div class="img-studio"><img src="../assets/img/estudio de grabacion.jpg" alt="studio"></div>
+
+                <div class="contenido-studio">
+                    <h4>Studio recording</h4>
+                    <p>En nuestros estudios digitales multipista usted podrá grabar su ensayo, demo o Disco. 
+                        Contamos con Paneles acústicos móviles. Monitores KRK Rockit de 8 pulgadas. La mejor manera de escuchar y mezclar el    audio. Amplia gama de Micrófoneria, dinámicos y condenser (Micrófonos Multipatron y Valvulares).
+                        El uso de los amplificadores y batería de la sala va incluido en el precio de la hora de grabación.</p>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
 
     <footer class="footer-container">
         
@@ -76,6 +163,11 @@
         </div>
         
     </footer>
-    
+
+    <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script class="animation">
+        AOS.init();
+    </script>
 </body>
 </html>

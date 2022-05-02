@@ -1,0 +1,58 @@
+/*footer*/
+
+.footer-container {
+    background-image: radial-gradient((black, rgb(24, 24, 24)));
+    display: grid;
+    grid-template-areas: 
+    "logo-izquierda     logo-redes    logo-derecha";
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+        width: 9.4em;
+        height: 6.25em;
+    }
+}
+
+.logo-izq-container {
+    grid-area: logo-izquierda;
+    transform: translate(4em);
+    transition: all 0.3s;
+    &:hover {
+        transform: translate(1px);
+    }
+}
+
+.full-content-center {
+    grid-area: logo-redes;
+    display: grid;
+    color: white;
+    justify-items: center;
+    grid-row-gap: 1em;
+    margin: 1em;
+    h3{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.5em;
+    }
+    h4{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.25em;
+    }
+    .redes-container{
+        img{
+            width: 3.25em;
+            height: 3.25em;
+            padding: 0.75em;
+            cursor: pointer;
+        }
+    }
+}
+
+
+.logo-der-container {
+    grid-area: logo-derecha;
+    transform: translate(-4em);
+    transition: all 0.3s;
+    &:hover {
+        transform: translate(1px);
+    }
+}

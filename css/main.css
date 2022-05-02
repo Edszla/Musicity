@@ -1,0 +1,424 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*Barra De Navegacion*/
+.navbar {
+  background-image: radial-gradient(black, #161616); }
+  .navbar img {
+    width: 7em;
+    height: 5em; }
+
+#navbarNav {
+  font-size: 1.6em;
+  font-family: cursive; }
+  #navbarNav .navbar-nav {
+    width: 88vw;
+    justify-content: space-evenly; }
+
+/*Main.index*/
+.main-container-index {
+  height: 82vh;
+  background-image: url("../assets/img/microofono.jpg");
+  background-size: cover;
+  background-position-y: -4.5em;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(8, 1fr); }
+  .main-container-index .contenido-titulos {
+    grid-column: 1/6;
+    grid-row: 2/5;
+    color: #e9dcdc;
+    font-size: 1.56em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(0, 0, 0, 0.332);
+    text-align: center;
+    animation-name: fadeInLeft;
+    animation-duration: 1s; }
+    .main-container-index .contenido-titulos h3 {
+      font-style: italic; }
+    .main-container-index .contenido-titulos h4 {
+      margin-top: 1.25em; }
+  .main-container-index .contenido-contacto {
+    grid-column: 1/6;
+    grid-row: 7/8;
+    color: #e9dcdc;
+    font-size: 1.56em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(0, 0, 0, 0.332);
+    text-align: center;
+    line-height: 2;
+    animation-name: fadeInLeft;
+    animation-duration: 1s; }
+    .main-container-index .contenido-contacto button {
+      font-size: 0.7em;
+      padding: 0.5em 1em;
+      border-radius: 2em;
+      cursor: pointer;
+      transition-property: height 2s, background-color;
+      transition-duration: 10s;
+      transition-timing-function: linear; }
+      .main-container-index .contenido-contacto button:hover {
+        background-color: black;
+        height: 3.1em; }
+
+/*section-index*/
+.section-container-index {
+  background-image: radial-gradient(black, #181818);
+  display: flex;
+  align-items: center; }
+
+.img-banda-container img {
+  width: 50vw;
+  height: 80vh;
+  margin: 1em; }
+
+.contenido-equipamiento {
+  padding: .5em;
+  font-size: 1.5em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  color: #e9dcdc; }
+  .contenido-equipamiento h1 {
+    padding-bottom: .5em; }
+  .contenido-equipamiento h2 {
+    padding-bottom: .5em;
+    font-style: italic; }
+  .contenido-equipamiento button {
+    font-size: 0.7em;
+    padding: 0.5em 1em;
+    margin-top: 0.6em;
+    border-radius: 2em;
+    cursor: pointer;
+    transition-property: height 2s, background-color;
+    transition-duration: 10s;
+    transition-timing-function: linear; }
+    .contenido-equipamiento button:hover {
+      background-color: black;
+      height: 3.1em; }
+
+/*main nosotros.html*/
+.main-container-nosotoros {
+  background-image: radial-gradient(black, #181818);
+  display: flex;
+  flex-direction: column; }
+  .main-container-nosotoros img {
+    padding: 0 1.5em 0 1.5em;
+    width: 100vw;
+    height: 90vh;
+    animation-name: fadeIn;
+    animation-duration: 1s; }
+  .main-container-nosotoros .contenido-nosotros {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    color: white;
+    margin-top: 2em; }
+    .main-container-nosotoros .contenido-nosotros p {
+      margin: 1.5em 1em; }
+
+/*section nosotros.html*/
+.section-container-nosotros {
+  background-image: radial-gradient(black, #181818);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); }
+  .section-container-nosotros .contenido-servicios {
+    grid-column: 1/13;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    margin-top: 2em; }
+    .section-container-nosotros .contenido-servicios p {
+      margin: 1.5em 1em; }
+
+/* Iconos nosotros.html*/
+.iconos-servicios-container {
+  background-image: radial-gradient(#443f3f, #3b3939);
+  width: 100vw;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center; }
+  .iconos-servicios-container .iconos {
+    flex-direction: column;
+    text-align: center;
+    line-height: 2;
+    align-items: center;
+    color: black;
+    cursor: pointer; }
+    .iconos-servicios-container .iconos:hover {
+      color: #740d0d; }
+    .iconos-servicios-container .iconos img {
+      width: 3.25em;
+      height: 3.25em; }
+
+/*imagenes finales nosotros*/
+.end-img-nosotros {
+  width: 100vw;
+  background-image: radial-gradient(black, #181818);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2em 0.1em;
+  gap: 3em; }
+  .end-img-nosotros img {
+    width: 37.5em;
+    height: 28em;
+    border-radius: 10%;
+    cursor: pointer; }
+    .end-img-nosotros img:hover {
+      border: 5px solid transparent; }
+
+/*boton galeria*/
+.boton-galeria-nosotros {
+  background-image: radial-gradient(black, #181818);
+  display: flex;
+  justify-content: center; }
+  .boton-galeria-nosotros button {
+    width: 8em;
+    height: 3em;
+    border-radius: 2em;
+    cursor: pointer;
+    margin: 10px; }
+    .boton-galeria-nosotros button:hover {
+      border: solid 3px black; }
+
+/*salas.html*/
+.contenido-salas {
+  background-image: radial-gradient(black, #181818);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white; }
+  .contenido-salas h1 {
+    margin: 40px 0 30px 0; }
+  .contenido-salas p {
+    font-size: 1.5em; }
+
+.section-salas {
+  background-image: radial-gradient(black, #181818);
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  gap: 20vh;
+  color: white; }
+
+.box-sala1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .box-sala1 img {
+    width: 650px;
+    height: 450px;
+    border-radius: 10%;
+    cursor: pointer; }
+    .box-sala1 img:hover {
+      border: 5px solid transparent; }
+  .box-sala1 .contenido-sala1 {
+    display: flex;
+    width: 38%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+    .box-sala1 .contenido-sala1 h4 {
+      font-size: 1.7em; }
+    .box-sala1 .contenido-sala1 p {
+      text-align: center;
+      font-size: 1.2em; }
+
+.box-sala2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: space-around; }
+  .box-sala2 img {
+    width: 650px;
+    height: 450px;
+    border-radius: 10%;
+    cursor: pointer; }
+    .box-sala2 img:hover {
+      border: 5px solid transparent; }
+  .box-sala2 .contenido-sala2 {
+    display: flex;
+    width: 38%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+    .box-sala2 .contenido-sala2 h4 {
+      font-size: 1.7em; }
+    .box-sala2 .contenido-sala2 p {
+      text-align: center;
+      font-size: 1.2em; }
+
+.box-sala3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .box-sala3 img {
+    width: 650px;
+    height: 450px;
+    border-radius: 10%;
+    cursor: pointer; }
+    .box-sala3 img:hover {
+      border: 5px solid transparent; }
+  .box-sala3 .contenido-sala3 {
+    display: flex;
+    width: 38%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+    .box-sala3 .contenido-sala3 h4 {
+      font-size: 1.7em; }
+    .box-sala3 .contenido-sala3 p {
+      text-align: center;
+      font-size: 1.2em; }
+
+.box-studio {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: space-around; }
+  .box-studio img {
+    width: 650px;
+    height: 450px;
+    border-radius: 10%;
+    cursor: pointer; }
+    .box-studio img:hover {
+      border: 5px solid transparent; }
+  .box-studio .contenido-studio {
+    display: flex;
+    width: 38%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+    .box-studio .contenido-studio h4 {
+      font-size: 1.7em; }
+    .box-studio .contenido-studio p {
+      text-align: center;
+      font-size: 1.2em; }
+
+/*Galeria.html*/
+#galeria {
+  background-image: radial-gradient(black, #181818);
+  height: 120vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  #galeria .text-center {
+    height: 10em;
+    font-family: cursive; }
+  #galeria #carouselgaleria {
+    width: 95%; }
+  #galeria img {
+    width: 100%;
+    height: 90vh; }
+
+#videos-ensayos {
+  background-image: radial-gradient(black, #181818);
+  color: white; }
+  #videos-ensayos .text-center {
+    height: 10vh;
+    font-family: cursive; }
+  #videos-ensayos .col-lg-6 {
+    padding: 30px; }
+  #videos-ensayos iframe {
+    width: 100%;
+    height: 400px;
+    cursor: pointer; }
+    #videos-ensayos iframe:hover {
+      border: 5px solid transparent; }
+
+/*Reservas.html*/
+.section-reservas {
+  background-image: radial-gradient(black, #181818);
+  color: white; }
+  .section-reservas h1 {
+    text-align: center;
+    padding-top: 25px;
+    height: 150px; }
+
+.contenido-reservas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .contenido-reservas .datos-reservas {
+    width: 600px; }
+    .contenido-reservas .datos-reservas h2 {
+      padding-bottom: 20px; }
+  .contenido-reservas .maps {
+    width: 600px; }
+    .contenido-reservas .maps iframe {
+      width: 550px;
+      height: 450px; }
+
+.section-contact {
+  background-image: radial-gradient(black, #181818);
+  color: white; }
+  .section-contact h2 {
+    text-align: center;
+    padding-top: 50px;
+    height: 150px; }
+  .section-contact .form-reservas {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .section-contact .form-reservas .mb-3 {
+      width: 50vw; }
+
+/*footer*/
+.footer-container {
+  background-image: radial-gradient(black, #181818);
+  display: grid;
+  grid-template-areas: "logo-izquierda     logo-redes    logo-derecha";
+  justify-content: space-between;
+  align-items: center; }
+  .footer-container .logo {
+    width: 9.4em;
+    height: 6.25em; }
+
+.logo-izq-container {
+  grid-area: logo-izquierda;
+  transform: translate(4em);
+  transition: all 0.3s; }
+  .logo-izq-container:hover {
+    transform: translate(1px); }
+
+.full-content-center {
+  grid-area: logo-redes;
+  display: grid;
+  color: white;
+  justify-items: center;
+  grid-row-gap: 1em;
+  margin: 1em; }
+  .full-content-center h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em; }
+  .full-content-center h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.25em; }
+  .full-content-center .redes-container img {
+    width: 3.25em;
+    height: 3.25em;
+    padding: 0.75em;
+    cursor: pointer; }
+
+.logo-der-container {
+  grid-area: logo-derecha;
+  transform: translate(-4em);
+  transition: all 0.3s; }
+  .logo-der-container:hover {
+    transform: translate(1px); }
