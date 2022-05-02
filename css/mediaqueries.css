@@ -259,7 +259,7 @@ main .contenido-salas {
 }
 
 .navbar-nav .nav-item .nav-link {
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -276,19 +276,19 @@ main .contenido-salas {
 }
 
 .main-container-index .contenido-titulos h1 {
-    font-size: 32px;
+    font-size: 31px;
 }
 
 .main-container-index .contenido-titulos h2 {
-    font-size: 27px;
+    font-size: 26px;
 }
 
 .main-container-index .contenido-titulos h3 {
-    font-size: 22px;
+    font-size: 21px;
 }
 
 .main-container-index .contenido-titulos h4 {
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .contenido-contacto {
@@ -296,7 +296,12 @@ main .contenido-salas {
 }
 
 .contenido-contacto h3 {
-    font-size: 22px;
+    margin-bottom: 20px;
+    font-size: 21px;
+}
+
+.contenido-contacto .btn{
+    margin-bottom: 15px;
 }
 
 /*section-index*/
@@ -316,11 +321,11 @@ main .contenido-salas {
 }
 
 .section-container-index .contenido-equipamiento h1 {
-    font-size: 32px;
+    font-size: 30px;
 }
 
 .section-container-index .contenido-equipamiento h2 {
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .section-container-index .contenido-equipamiento {
@@ -343,12 +348,9 @@ main .contenido-salas {
 }
 
 .full-content-center{
-    font-size: 12px;
+    font-size: 11px;
 }
 
-.full-content-center .logo-med-container {
-    font-size: 13px;
-}
 
 
 /*nosotros.html*/
@@ -356,6 +358,7 @@ main .contenido-salas {
 /*main nosotros.html*/
 
 .main-container-nosotoros .imagen-estudio-container img{
+    padding: 0 5px 0 5px;
     height: 300px;
 }
 
@@ -466,6 +469,7 @@ height: 80vh;
 .section-reservas h1{
 font-size: 22px;
 padding: 0 10px 0 10px;
+margin-bottom: -30px;
 }
 
 .contenido-reservas{
