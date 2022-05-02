@@ -6,7 +6,7 @@
     flex-direction: column;
     img{
         padding: 0 1.5em 0 1.5em;
-        width: 100vw;
+        width: 100%;
         height: 90vh;
         animation-name: fadeIn;
         animation-duration: 1s;
@@ -49,7 +49,7 @@
 
 .iconos-servicios-container {
     background-image: radial-gradient(rgb(68, 63, 63), rgb(59, 57, 57));
-    width: 100vw;
+    width: 100%;
     height: 150px;
     display: flex;
     flex-wrap: wrap;
@@ -75,7 +75,7 @@
 /*imagenes finales nosotros*/
 
 .end-img-nosotros {
-    width: 100vw;
+    width: 100%;
     background-image: radial-gradient((black, rgb(24, 24, 24)));
     display: flex;
     flex-wrap: wrap;
