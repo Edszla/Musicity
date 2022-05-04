@@ -422,3 +422,270 @@
   transition: all 0.3s; }
   .logo-der-container:hover {
     transform: translate(1px); }
+
+/*media queries*/
+@media screen and (max-width: 320px) {
+  /*Barra De Navegacion*/
+  .navbar-nav .nav-item .nav-link {
+    font-size: 15px;
+    text-align: center; }
+  /*Main.index*/
+  .main-container-index {
+    background-position: 70%;
+    font-size: 10px; }
+    .main-container-index .contenido-titulos {
+      width: 98vw;
+      height: 210px; }
+      .main-container-index .contenido-titulos h1 {
+        font-size: 27px; }
+      .main-container-index .contenido-titulos h2 {
+        font-size: 23px; }
+      .main-container-index .contenido-titulos h3 {
+        font-size: 18px; }
+      .main-container-index .contenido-titulos h4 {
+        font-size: 15px; }
+  .contenido-contacto {
+    width: 98vw;
+    font-size: 10px; }
+    .contenido-contacto h3 {
+      font-size: 18px; }
+  /*section-index*/
+  .section-container-index .img-banda-container img {
+    position: relative;
+    margin: -30px 0 10px 0;
+    width: 100vw;
+    height: 50vh; }
+  .section-container-index .contenido-equipamiento {
+    font-size: 15px; }
+    .section-container-index .contenido-equipamiento h1 {
+      font-size: 27px; }
+    .section-container-index .contenido-equipamiento h2 {
+      font-size: 21px; }
+  /*footer*/
+  .logo-izq-container {
+    display: none; }
+  .logo-der-container {
+    display: none; }
+  .full-content-center {
+    font-size: 11px; }
+    .full-content-center .logo-med-container {
+      font-size: 11px; }
+  /*nosotros.html*/
+  /*main nosotros.html*/
+  .main-container-nosotoros .imagen-estudio-container img {
+    height: 300px; }
+  /*section nosotros.html*/
+  .contenido-nosotros h2 {
+    font-size: 20px; }
+  .contenido-nosotros p {
+    font-size: 15px; }
+  .contenido-servicios h2 {
+    font-size: 20px; }
+  .contenido-servicios p {
+    font-size: 15px; }
+  /* Iconos nosotros.html*/
+  .iconos-servicios-container .iconos {
+    font-size: 12px; }
+  .iconos-servicios-container h4 {
+    font-size: 14px; }
+  /*imagenes finales nosotros*/
+  .end-img-nosotros div img {
+    width: 95vw;
+    height: 60vh; }
+  .boton-galeria-nosotros button {
+    font-size: 12px; }
+  /*Salas.html*/
+  /*contenido-Salas*/
+  main .contenudo-salas {
+    font-size: 10px;
+    padding: 0 10px 0 10px; }
+  .section-salas .box-sala1 img {
+    width: 95vw;
+    height: 60vh; }
+  .section-salas .box-sala1 .contenido-sala1 {
+    width: 100vw;
+    font-size: 11px;
+    margin: 20px 10px 0 10px; }
+  .section-salas .box-sala2 img {
+    width: 95vw;
+    height: 60vh; }
+  .section-salas .box-sala2 .contenido-sala2 {
+    width: 100vw;
+    font-size: 11px;
+    margin: 20px 10px 0 10px; }
+  .section-salas .box-sala3 img {
+    width: 95vw;
+    height: 60vh; }
+  .section-salas .box-sala3 .contenido-sala3 {
+    width: 100vw;
+    font-size: 11px;
+    margin: 20px 10px 0 10px; }
+  .section-salas .box-studio img {
+    width: 95vw;
+    height: 60vh; }
+  .section-salas .box-studio .contenido-studio {
+    width: 100vw;
+    font-size: 11px;
+    margin: 20px 10px 0 10px; }
+  /*Galeria.html*/
+  #galeria #carouselgaleria img {
+    height: 80vh; }
+  /*Reservas.html*/
+  .section-reservas h1 {
+    font-size: 20px;
+    padding: 0 10px 0 10px; }
+  .contenido-reservas {
+    gap: 30px; }
+    .contenido-reservas .datos-reservas {
+      text-align: center;
+      font-size: 13px; }
+      .contenido-reservas .datos-reservas h2 {
+        font-size: 18px; }
+  .section-reservas .contenido-reservas .maps iframe {
+    width: 100vw;
+    height: 50vh; }
+  .section-contact h2 {
+    font-size: 18px; }
+  .section-contact .form-reservas .mb-3 {
+    width: 90vw !important; }
+  .section-contact .form-reservas .btn {
+    font-size: 12px; } }
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 321px) and (max-width: 480px) {
+  /*Barra De Navegacion*/
+  .container-fluid .navbar-brand img {
+    width: 100px;
+    height: 80px; }
+  .navbar-nav .nav-item .nav-link {
+    font-size: 25px;
+    text-align: center; }
+  /*Main.index*/
+  .main-container-index {
+    background-position: 70%;
+    font-size: 13px; }
+    .main-container-index .contenido-titulos {
+      width: 100vw;
+      height: 250px; }
+      .main-container-index .contenido-titulos h1 {
+        font-size: 31px; }
+      .main-container-index .contenido-titulos h2 {
+        font-size: 26px; }
+      .main-container-index .contenido-titulos h3 {
+        font-size: 21px; }
+      .main-container-index .contenido-titulos h4 {
+        font-size: 17px; }
+  .contenido-contacto {
+    width: 100vw; }
+    .contenido-contacto h3 {
+      margin-bottom: 20px;
+      font-size: 21px; }
+    .contenido-contacto .btn {
+      margin-bottom: 25px; }
+  /*section-index*/
+  .section-container-index {
+    background-image: radial-gradient(black, #0f0f0f);
+    display: flex;
+    flex-direction: column; }
+    .section-container-index .img-banda-container img {
+      position: relative;
+      margin: -30px 0 10px 0;
+      width: 100vw;
+      height: 50vh; }
+  .section-container-index .contenido-equipamiento {
+    font-size: 17px; }
+    .section-container-index .contenido-equipamiento h1 {
+      font-size: 30px; }
+    .section-container-index .contenido-equipamiento h2 {
+      font-size: 23px; }
+    .section-container-index .contenido-equipamiento button {
+      font-size: 15px; }
+  /*footer*/
+  .logo-izq-container {
+    display: none; }
+  .logo-der-container {
+    display: none; }
+  .full-content-center {
+    font-size: 11px; }
+  /*nosotros.html*/
+  /*main nosotros.html*/
+  .main-container-nosotoros .imagen-estudio-container img {
+    padding: 0 5px 0 5px;
+    height: 300px; }
+  /*section nosotros.html*/
+  .contenido-nosotros h2 {
+    font-size: 22px; }
+  .contenido-nosotros p {
+    font-size: 17px; }
+  .contenido-servicios h2 {
+    font-size: 22px; }
+  .contenido-servicios p {
+    font-size: 17px; }
+  /* Iconos nosotros.html*/
+  .iconos-servicios-container .iconos {
+    font-size: 16px; }
+    .iconos-servicios-container .iconos h4 {
+      font-size: 13px; }
+  /*imagenes finales nosotros*/
+  .end-img-nosotros div img {
+    width: 95vw;
+    height: 60vh; }
+  .boton-galeria-nosotros button {
+    font-size: 14px; }
+  /*Salas.html*/
+  /*contenido-Salas*/
+  main .contenido-salas {
+    font-size: 10px;
+    padding: 0 10px 0 10px; }
+  .section-salas .box-sala1 img {
+    width: 95vw;
+    height: 60vh; }
+  .section-salas .box-sala1 .contenido-sala1 {
+    width: 100vw;
+    font-size: 12px;
+    margin: 40px 10px 0 10px; }
+  .section-salas .box-sala2 img {
+    width: 95vw;
+    height: 60vh; }
+  .section-salas .box-sala2 .contenido-sala2 {
+    width: 100vw;
+    font-size: 12px;
+    margin: 40px 10px 0 10px; }
+  .section-salas .box-sala3 img {
+    width: 95vw;
+    height: 60vh; }
+  .section-salas .box-sala3 .contenido-sala3 {
+    width: 100vw;
+    font-size: 12px;
+    margin: 40px 10px 0 10px; }
+  .section-salas .box-studio img {
+    width: 95vw;
+    height: 60vh; }
+  .section-salas .box-studio .contenido-studio {
+    width: 100vw;
+    font-size: 12px;
+    margin: 40px 10px 0 10px; }
+  /*Galeria.html*/
+  #galeria #carouselgaleria img {
+    height: 80vh; }
+  /*Reservas.html*/
+  .section-reservas h1 {
+    font-size: 22px;
+    padding: 0 10px 0 10px;
+    margin-bottom: -30px; }
+  .contenido-reservas {
+    gap: 30px; }
+    .contenido-reservas .datos-reservas {
+      text-align: center;
+      font-size: 15px; }
+      .contenido-reservas .datos-reservas h2 {
+        font-size: 18px; }
+  .section-reservas .contenido-reservas .maps iframe {
+    width: 100vw;
+    height: 50vh; }
+  .section-contact h2 {
+    font-size: 20px; }
+  .section-contact .form-reservas .mb-3 {
+    width: 90vw !important; }
+  .section-contact .form-reservas .btn {
+    font-size: 14px; } }
