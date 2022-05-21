@@ -12,9 +12,9 @@
     .contenido-titulos {
         grid-column: 1/6;
         grid-row: 2/5;
-        color: rgb(233, 220, 220);
+        color: $color-tipografia;
         font-size: 1.56em;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: $tipografia-all;
         background-color: rgba(0, 0, 0, 0.332);
         text-align: center;
         animation-name: fadeInLeft;
@@ -29,9 +29,9 @@
     .contenido-contacto {
         grid-column: 1/6;
         grid-row: 7/8;
-        color: rgb(233, 220, 220);
+        color: $color-tipografia;
         font-size: 1.56em;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: $tipografia-all;
         background-color: rgba(0, 0, 0, 0.332);
         text-align: center;
         line-height: 2;
@@ -43,7 +43,7 @@
             border-radius: 2em;
             cursor: pointer;
             transition-property: height 2s, background-color;
-            transition-duration: 10s;
+            transition-duration: 2s;
             transition-timing-function: linear;
             &:hover {
                 background-color: black;
@@ -56,7 +56,7 @@
 /*section-index*/
 
 .section-container-index {
-    background-image: radial-gradient((black, rgb(24, 24, 24)));
+    background-image: radial-gradient($gradient-all);
     display: flex;
     align-items: center;
 }
@@ -72,10 +72,10 @@
 .contenido-equipamiento {
     padding: .5em;
     font-size: 1.5em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: $tipografia-all;
     font-weight: lighter;
     text-align: center;
-    color: rgb(233, 220, 220);
+    color: $color-tipografia;
     h1{
         padding-bottom: .5em;
     }
@@ -84,17 +84,6 @@
         font-style: italic;
     }
     button {
-        font-size: 0.7em;
-        padding: 0.5em 1em;
-        margin-top: 0.6em;
-        border-radius: 2em;
-        cursor: pointer;
-        transition-property: height 2s, background-color;
-        transition-duration: 10s;
-        transition-timing-function: linear;
-        &:hover {
-            background-color: black;
-            height: 3.1em;
-        }
+        @include boton-index-equipamiento;
     }
 }

@@ -1,8 +1,9 @@
 /*Reservas.html*/
 
 .section-reservas {
-    background-image: radial-gradient((black, rgb(24, 24, 24)));
-    color: white;
+    background-image: radial-gradient($gradient-all);
+    color: $color-tipografia;
+    font-family: $tipografia-all;
     h1{
         text-align: center;
         padding-top: 25px;
@@ -31,8 +32,9 @@
 
 
 .section-contact {
-    background-image: radial-gradient((black, rgb(24, 24, 24)));
-    color: white;
+    background-image: radial-gradient($gradient-all);
+    color: $color-tipografia;
+    font-family: $tipografia-all;
     h2{
         text-align: center;
         padding-top: 50px;

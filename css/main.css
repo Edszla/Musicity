@@ -32,7 +32,7 @@
     grid-row: 2/5;
     color: #e9dcdc;
     font-size: 1.56em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
     background-color: rgba(0, 0, 0, 0.332);
     text-align: center;
     animation-name: fadeInLeft;
@@ -46,7 +46,7 @@
     grid-row: 7/8;
     color: #e9dcdc;
     font-size: 1.56em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
     background-color: rgba(0, 0, 0, 0.332);
     text-align: center;
     line-height: 2;
@@ -58,7 +58,7 @@
       border-radius: 2em;
       cursor: pointer;
       transition-property: height 2s, background-color;
-      transition-duration: 10s;
+      transition-duration: 2s;
       transition-timing-function: linear; }
       .main-container-index .contenido-contacto button:hover {
         background-color: black;
@@ -78,7 +78,7 @@
 .contenido-equipamiento {
   padding: .5em;
   font-size: 1.5em;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   font-weight: lighter;
   text-align: center;
   color: #e9dcdc; }
@@ -94,7 +94,7 @@
     border-radius: 2em;
     cursor: pointer;
     transition-property: height 2s, background-color;
-    transition-duration: 10s;
+    transition-duration: 2s;
     transition-timing-function: linear; }
     .contenido-equipamiento button:hover {
       background-color: black;
@@ -114,9 +114,9 @@
   .main-container-nosotoros .contenido-nosotros {
     text-align: center;
     font-size: 1.5em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
     font-weight: lighter;
-    color: white;
+    color: #e9dcdc;
     margin-top: 2em; }
     .main-container-nosotoros .contenido-nosotros p {
       margin: 1.5em 1em; }
@@ -129,9 +129,9 @@
   .section-container-nosotros .contenido-servicios {
     grid-column: 1/13;
     text-align: center;
-    color: white;
+    color: #e9dcdc;
     font-size: 1.5em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
     font-weight: lighter;
     margin-top: 2em; }
     .section-container-nosotros .contenido-servicios p {
@@ -139,7 +139,7 @@
 
 /* Iconos nosotros.html*/
 .iconos-servicios-container {
-  background-image: radial-gradient(#443f3f, #3b3939);
+  background-image: radial-gradient(#3a3737, #312e2e);
   width: 100%;
   height: 150px;
   display: flex;
@@ -198,7 +198,7 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  color: white; }
+  color: #e9dcdc; }
   .contenido-salas h1 {
     margin: 40px 0 30px 0; }
   .contenido-salas p {
@@ -210,129 +210,73 @@
   flex-direction: column;
   padding-top: 100px;
   gap: 20vh;
-  color: white; }
+  color: #e9dcdc; }
 
-.box-sala1 {
+.box-sala1, .box-sala3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
-  .box-sala1 img {
+  .box-sala1 img, .box-sala3 img {
     width: 650px;
     height: 450px;
     border-radius: 10%;
     cursor: pointer; }
-    .box-sala1 img:hover {
+    .box-sala1 img:hover, .box-sala3 img:hover {
       border: 5px solid transparent; }
-  .box-sala1 .contenido-sala1 {
-    display: flex;
-    width: 38%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-    .box-sala1 .contenido-sala1 h4 {
-      font-size: 1.7em; }
-    .box-sala1 .contenido-sala1 p {
-      text-align: center;
-      font-size: 1.2em; }
 
-.box-sala2 {
+.contenido-sala1, .box-sala2 .contenido-sala2, .box-studio .contenido-sala2, .box-sala3 .contenido-sala3, .box-studio .contenido-studio {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row-reverse;
-  justify-content: space-around; }
-  .box-sala2 img {
-    width: 650px;
-    height: 450px;
-    border-radius: 10%;
-    cursor: pointer; }
-    .box-sala2 img:hover {
-      border: 5px solid transparent; }
-  .box-sala2 .contenido-sala2 {
-    display: flex;
-    width: 38%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-    .box-sala2 .contenido-sala2 h4 {
-      font-size: 1.7em; }
-    .box-sala2 .contenido-sala2 p {
-      text-align: center;
-      font-size: 1.2em; }
+  width: 38%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+  .contenido-sala1 h4, .box-sala2 .contenido-sala2 h4, .box-studio .contenido-sala2 h4, .box-sala3 .contenido-sala3 h4, .box-studio .contenido-studio h4 {
+    font-size: 1.7em; }
+  .contenido-sala1 p, .box-sala2 .contenido-sala2 p, .box-studio .contenido-sala2 p, .box-sala3 .contenido-sala3 p, .box-studio .contenido-studio p {
+    text-align: center;
+    font-size: 1.2em; }
 
-.box-sala3 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; }
-  .box-sala3 img {
-    width: 650px;
-    height: 450px;
-    border-radius: 10%;
-    cursor: pointer; }
-    .box-sala3 img:hover {
-      border: 5px solid transparent; }
-  .box-sala3 .contenido-sala3 {
-    display: flex;
-    width: 38%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-    .box-sala3 .contenido-sala3 h4 {
-      font-size: 1.7em; }
-    .box-sala3 .contenido-sala3 p {
-      text-align: center;
-      font-size: 1.2em; }
-
-.box-studio {
+.box-sala2, .box-studio {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row-reverse;
   justify-content: space-around; }
-  .box-studio img {
+  .box-sala2 img, .box-studio img {
     width: 650px;
     height: 450px;
     border-radius: 10%;
     cursor: pointer; }
-    .box-studio img:hover {
+    .box-sala2 img:hover, .box-studio img:hover {
       border: 5px solid transparent; }
-  .box-studio .contenido-studio {
-    display: flex;
-    width: 38%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-    .box-studio .contenido-studio h4 {
-      font-size: 1.7em; }
-    .box-studio .contenido-studio p {
-      text-align: center;
-      font-size: 1.2em; }
 
 /*Galeria.html*/
 #galeria {
   background-image: radial-gradient(black, #181818);
   height: 120vh;
-  color: white;
+  color: #e9dcdc;
   display: flex;
   flex-direction: column;
   align-items: center; }
   #galeria .text-center {
     height: 10em;
-    font-family: cursive; }
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-style: italic; }
   #galeria #carouselgaleria {
     width: 95%; }
   #galeria img {
     width: 100%;
-    height: 90vh; }
+    height: 90vh;
+    object-fit: cover;
+    object-position: center center; }
 
 #videos-ensayos {
   background-image: radial-gradient(black, #181818);
-  color: white; }
+  color: #e9dcdc; }
   #videos-ensayos .text-center {
     height: 10vh;
-    font-family: cursive; }
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-style: italic; }
   #videos-ensayos .col-lg-6 {
     padding: 30px; }
   #videos-ensayos iframe {
@@ -345,7 +289,8 @@
 /*Reservas.html*/
 .section-reservas {
   background-image: radial-gradient(black, #181818);
-  color: white; }
+  color: #e9dcdc;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; }
   .section-reservas h1 {
     text-align: center;
     padding-top: 25px;
@@ -367,7 +312,8 @@
 
 .section-contact {
   background-image: radial-gradient(black, #181818);
-  color: white; }
+  color: #e9dcdc;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; }
   .section-contact h2 {
     text-align: center;
     padding-top: 50px;
@@ -400,7 +346,7 @@
 .full-content-center {
   grid-area: logo-redes;
   display: grid;
-  color: white;
+  color: #e9dcdc;
   justify-items: center;
   grid-row-gap: 1em;
   margin: 1em; }
@@ -410,6 +356,8 @@
   .full-content-center h4 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.25em; }
+  .full-content-center .redes-container a {
+    text-decoration: none; }
   .full-content-center .redes-container img {
     width: 3.25em;
     height: 3.25em;
@@ -426,8 +374,11 @@
 /*media queries*/
 @media screen and (max-width: 320px) {
   /*Barra De Navegacion*/
+  .container-fluid .navbar-brand img {
+    width: 100px;
+    height: 80px; }
   .navbar-nav .nav-item .nav-link {
-    font-size: 15px;
+    font-size: 20px;
     text-align: center; }
   /*Main.index*/
   .main-container-index {
@@ -450,11 +401,15 @@
     .contenido-contacto h3 {
       font-size: 18px; }
   /*section-index*/
-  .section-container-index .img-banda-container img {
-    position: relative;
-    margin: -30px 0 10px 0;
-    width: 100vw;
-    height: 50vh; }
+  .section-container-index {
+    background-image: radial-gradient(black, #0f0f0f);
+    display: flex;
+    flex-direction: column; }
+    .section-container-index .img-banda-container img {
+      position: relative;
+      margin: -30px 0 10px 0;
+      width: 100vw;
+      height: 50vh; }
   .section-container-index .contenido-equipamiento {
     font-size: 15px; }
     .section-container-index .contenido-equipamiento h1 {
@@ -473,6 +428,7 @@
   /*nosotros.html*/
   /*main nosotros.html*/
   .main-container-nosotoros .imagen-estudio-container img {
+    padding: 0 5px 0 5px;
     height: 300px; }
   /*section nosotros.html*/
   .contenido-nosotros h2 {
@@ -496,20 +452,20 @@
     font-size: 12px; }
   /*Salas.html*/
   /*contenido-Salas*/
-  main .contenudo-salas {
+  main .contenido-salas {
     font-size: 10px;
     padding: 0 10px 0 10px; }
-  .section-salas .box-sala1 img {
+  .section-salas .box-sala1 img, .section-salas .box-sala3 img {
     width: 95vw;
     height: 60vh; }
-  .section-salas .box-sala1 .contenido-sala1 {
+  .section-salas .box-sala1 .contenido-sala1, .section-salas .box-sala3 .contenido-sala1, .section-salas .box-sala1 .box-sala2 .contenido-sala2, .box-sala2 .section-salas .box-sala1 .contenido-sala2, .section-salas .box-sala3 .box-sala2 .contenido-sala2, .box-sala2 .section-salas .box-sala3 .contenido-sala2, .section-salas .box-sala1 .box-studio .contenido-sala2, .box-studio .section-salas .box-sala1 .contenido-sala2, .section-salas .box-sala3 .box-studio .contenido-sala2, .box-studio .section-salas .box-sala3 .contenido-sala2, .box-sala3 .section-salas .box-sala1 .contenido-sala3, .section-salas .box-sala3 .contenido-sala3, .section-salas .box-sala1 .box-studio .contenido-studio, .box-studio .section-salas .box-sala1 .contenido-studio, .section-salas .box-sala3 .box-studio .contenido-studio, .box-studio .section-salas .box-sala3 .contenido-studio {
     width: 100vw;
     font-size: 11px;
     margin: 20px 10px 0 10px; }
-  .section-salas .box-sala2 img {
+  .section-salas .box-sala2 img, .section-salas .box-studio img {
     width: 95vw;
     height: 60vh; }
-  .section-salas .box-sala2 .contenido-sala2 {
+  .section-salas .box-sala2 .contenido-sala2, .section-salas .box-studio .contenido-sala2 {
     width: 100vw;
     font-size: 11px;
     margin: 20px 10px 0 10px; }
@@ -533,7 +489,8 @@
   /*Reservas.html*/
   .section-reservas h1 {
     font-size: 20px;
-    padding: 0 10px 0 10px; }
+    padding: 0 10px 0 10px;
+    margin-bottom: -30px; }
   .contenido-reservas {
     gap: 30px; }
     .contenido-reservas .datos-reservas {
@@ -551,7 +508,6 @@
   .section-contact .form-reservas .btn {
     font-size: 12px; } }
 
-/*----------------------------------------------------------------------------------------------------------------------------------*/
 @media (min-width: 321px) and (max-width: 480px) {
   /*Barra De Navegacion*/
   .container-fluid .navbar-brand img {
@@ -606,7 +562,9 @@
   .logo-der-container {
     display: none; }
   .full-content-center {
-    font-size: 11px; }
+    font-size: 13px; }
+    .full-content-center h4 {
+      text-align: center; }
   /*nosotros.html*/
   /*main nosotros.html*/
   .main-container-nosotoros .imagen-estudio-container img {
@@ -635,19 +593,19 @@
   /*Salas.html*/
   /*contenido-Salas*/
   main .contenido-salas {
-    font-size: 10px;
+    font-size: 12px;
     padding: 0 10px 0 10px; }
-  .section-salas .box-sala1 img {
+  .section-salas .box-sala1 img, .section-salas .box-sala3 img {
     width: 95vw;
     height: 60vh; }
-  .section-salas .box-sala1 .contenido-sala1 {
+  .section-salas .box-sala1 .contenido-sala1, .section-salas .box-sala3 .contenido-sala1, .section-salas .box-sala1 .box-sala2 .contenido-sala2, .box-sala2 .section-salas .box-sala1 .contenido-sala2, .section-salas .box-sala3 .box-sala2 .contenido-sala2, .box-sala2 .section-salas .box-sala3 .contenido-sala2, .section-salas .box-sala1 .box-studio .contenido-sala2, .box-studio .section-salas .box-sala1 .contenido-sala2, .section-salas .box-sala3 .box-studio .contenido-sala2, .box-studio .section-salas .box-sala3 .contenido-sala2, .box-sala3 .section-salas .box-sala1 .contenido-sala3, .section-salas .box-sala3 .contenido-sala3, .section-salas .box-sala1 .box-studio .contenido-studio, .box-studio .section-salas .box-sala1 .contenido-studio, .section-salas .box-sala3 .box-studio .contenido-studio, .box-studio .section-salas .box-sala3 .contenido-studio {
     width: 100vw;
     font-size: 12px;
     margin: 40px 10px 0 10px; }
-  .section-salas .box-sala2 img {
+  .section-salas .box-sala2 img, .section-salas .box-studio img {
     width: 95vw;
     height: 60vh; }
-  .section-salas .box-sala2 .contenido-sala2 {
+  .section-salas .box-sala2 .contenido-sala2, .section-salas .box-studio .contenido-sala2 {
     width: 100vw;
     font-size: 12px;
     margin: 40px 10px 0 10px; }
@@ -689,3 +647,511 @@
     width: 90vw !important; }
   .section-contact .form-reservas .btn {
     font-size: 14px; } }
+
+@media (min-width: 481px) and (max-width: 600px) {
+  /*Barra De Navegacion*/
+  .container-fluid .navbar-brand img {
+    width: 100px;
+    height: 80px; }
+  .navbar-nav .nav-item .nav-link {
+    font-size: 28px;
+    text-align: center; }
+  /*Main.index*/
+  .main-container-index {
+    background-position: 75%;
+    font-size: 15px; }
+    .main-container-index .contenido-titulos {
+      width: 100vw;
+      height: 250px; }
+      .main-container-index .contenido-titulos h1 {
+        font-size: 33px; }
+      .main-container-index .contenido-titulos h2 {
+        font-size: 28px; }
+      .main-container-index .contenido-titulos h3 {
+        font-size: 23px; }
+      .main-container-index .contenido-titulos h4 {
+        font-size: 19px; }
+  .contenido-contacto {
+    width: 100vw; }
+    .contenido-contacto h3 {
+      margin-bottom: 20px;
+      font-size: 23px; }
+    .contenido-contacto .btn {
+      margin-bottom: 25px; }
+  /*section-index*/
+  .section-container-index {
+    background-image: radial-gradient(black, #0f0f0f);
+    display: flex;
+    flex-direction: column; }
+    .section-container-index .img-banda-container img {
+      position: relative;
+      margin: -30px 0 10px 0;
+      width: 100vw;
+      height: 70vh; }
+  .section-container-index .contenido-equipamiento {
+    font-size: 19px; }
+    .section-container-index .contenido-equipamiento h1 {
+      font-size: 32px; }
+    .section-container-index .contenido-equipamiento h2 {
+      font-size: 25px; }
+    .section-container-index .contenido-equipamiento button {
+      font-size: 17px; }
+  /*footer*/
+  .logo-izq-container {
+    display: none; }
+  .logo-der-container {
+    display: none; }
+  .full-content-center {
+    font-size: 15px; }
+    .full-content-center h4 {
+      text-align: center; }
+  /*nosotros.html*/
+  /*main nosotros.html*/
+  .main-container-nosotoros .imagen-estudio-container img {
+    padding: 0 5px 0 5px;
+    height: 350px; }
+  /*section nosotros.html*/
+  .contenido-nosotros h2 {
+    font-size: 24px; }
+  .contenido-nosotros p {
+    font-size: 19px; }
+  .contenido-servicios h2 {
+    font-size: 24px; }
+  .contenido-servicios p {
+    font-size: 19px; }
+  /* Iconos nosotros.html*/
+  .iconos-servicios-container .iconos {
+    font-size: 16px; }
+    .iconos-servicios-container .iconos h4 {
+      font-size: 15px; }
+  /*imagenes finales nosotros*/
+  .end-img-nosotros div img {
+    width: 95vw;
+    height: 70vh; }
+  .boton-galeria-nosotros button {
+    font-size: 16px; }
+  /*Salas.html*/
+  /*contenido-Salas*/
+  main .contenido-salas {
+    font-size: 14px;
+    padding: 0 10px 0 10px; }
+  .section-salas .box-sala1 img, .section-salas .box-sala3 img {
+    width: 95vw;
+    height: 60vh; }
+  .section-salas .box-sala1 .contenido-sala1, .section-salas .box-sala3 .contenido-sala1, .section-salas .box-sala1 .box-sala2 .contenido-sala2, .box-sala2 .section-salas .box-sala1 .contenido-sala2, .section-salas .box-sala3 .box-sala2 .contenido-sala2, .box-sala2 .section-salas .box-sala3 .contenido-sala2, .section-salas .box-sala1 .box-studio .contenido-sala2, .box-studio .section-salas .box-sala1 .contenido-sala2, .section-salas .box-sala3 .box-studio .contenido-sala2, .box-studio .section-salas .box-sala3 .contenido-sala2, .box-sala3 .section-salas .box-sala1 .contenido-sala3, .section-salas .box-sala3 .contenido-sala3, .section-salas .box-sala1 .box-studio .contenido-studio, .box-studio .section-salas .box-sala1 .contenido-studio, .section-salas .box-sala3 .box-studio .contenido-studio, .box-studio .section-salas .box-sala3 .contenido-studio {
+    width: 100vw;
+    font-size: 14px;
+    margin: 40px 10px 0 10px; }
+  .section-salas .box-sala2 img, .section-salas .box-studio img {
+    width: 95vw;
+    height: 60vh; }
+  .section-salas .box-sala2 .contenido-sala2, .section-salas .box-studio .contenido-sala2 {
+    width: 100vw;
+    font-size: 14px;
+    margin: 40px 10px 0 10px; }
+  .section-salas .box-sala3 img {
+    width: 95vw;
+    height: 60vh; }
+  .section-salas .box-sala3 .contenido-sala3 {
+    width: 100vw;
+    font-size: 14px;
+    margin: 40px 10px 0 10px; }
+  .section-salas .box-studio img {
+    width: 95vw;
+    height: 60vh; }
+  .section-salas .box-studio .contenido-studio {
+    width: 100vw;
+    font-size: 14px;
+    margin: 40px 10px 0 10px; }
+  /*Galeria.html*/
+  #galeria #carouselgaleria img {
+    height: 80vh; }
+  /*Reservas.html*/
+  .section-reservas h1 {
+    font-size: 24px;
+    padding: 0 10px 0 10px;
+    margin-bottom: -30px; }
+  .contenido-reservas {
+    gap: 30px; }
+    .contenido-reservas .datos-reservas {
+      text-align: center;
+      font-size: 17px; }
+      .contenido-reservas .datos-reservas h2 {
+        font-size: 20px; }
+  .section-reservas .contenido-reservas .maps iframe {
+    width: 100vw;
+    height: 50vh; }
+  .section-contact h2 {
+    font-size: 22px; }
+  .section-contact .form-reservas .mb-3 {
+    width: 80vw !important; }
+  .section-contact .form-reservas .btn {
+    font-size: 14px; } }
+
+@media (min-width: 601px) and (max-width: 767px) {
+  /*Barra De Navegacion*/
+  .container-fluid .navbar-brand img {
+    width: 130px;
+    height: 100px; }
+  .navbar-nav .nav-item .nav-link {
+    font-size: 30px;
+    text-align: center; }
+  /*Main.index*/
+  .main-container-index {
+    background-position: 80%;
+    font-size: 16px; }
+    .main-container-index .contenido-titulos {
+      width: 100vw;
+      height: 250px; }
+      .main-container-index .contenido-titulos h1 {
+        font-size: 35px; }
+      .main-container-index .contenido-titulos h2 {
+        font-size: 30px; }
+      .main-container-index .contenido-titulos h3 {
+        font-size: 25px; }
+      .main-container-index .contenido-titulos h4 {
+        font-size: 21px; }
+  .contenido-contacto {
+    width: 100vw; }
+    .contenido-contacto h3 {
+      margin-bottom: 20px;
+      font-size: 25px; }
+    .contenido-contacto .btn {
+      margin-bottom: 25px; }
+  /*section-index*/
+  .section-container-index {
+    background-image: radial-gradient(black, #0f0f0f);
+    display: flex;
+    flex-direction: column; }
+    .section-container-index .img-banda-container img {
+      position: relative;
+      margin: -30px 0 10px 0;
+      width: 100vw;
+      height: 80vh; }
+  .section-container-index .contenido-equipamiento {
+    font-size: 21px; }
+    .section-container-index .contenido-equipamiento h1 {
+      font-size: 34px; }
+    .section-container-index .contenido-equipamiento h2 {
+      font-size: 27px; }
+    .section-container-index .contenido-equipamiento button {
+      font-size: 19px; }
+  /*footer*/
+  .logo-izq-container {
+    display: none; }
+  .logo-der-container {
+    display: none; }
+  .full-content-center {
+    font-size: 17px; }
+    .full-content-center h4 {
+      text-align: center; }
+  /*nosotros.html*/
+  /*main nosotros.html*/
+  .main-container-nosotoros .imagen-estudio-container img {
+    padding: 0 5px 0 5px;
+    height: 400px; }
+  /*section nosotros.html*/
+  .contenido-nosotros h2 {
+    font-size: 26px; }
+  .contenido-nosotros p {
+    font-size: 21px; }
+  .contenido-servicios h2 {
+    font-size: 26px; }
+  .contenido-servicios p {
+    font-size: 21px; }
+  /* Iconos nosotros.html*/
+  .iconos-servicios-container .iconos {
+    font-size: 18px; }
+    .iconos-servicios-container .iconos h4 {
+      font-size: 17px; }
+  /*imagenes finales nosotros*/
+  .end-img-nosotros div img {
+    width: 590px;
+    height: 70vh; }
+  .boton-galeria-nosotros button {
+    font-size: 18px; }
+  /*Salas.html*/
+  /*contenido-Salas*/
+  main .contenido-salas {
+    font-size: 16px;
+    padding: 0 10px 0 10px; }
+  .section-salas .box-sala1 img, .section-salas .box-sala3 img {
+    width: 95vw;
+    height: 80vh; }
+  .section-salas .box-sala1 .contenido-sala1, .section-salas .box-sala3 .contenido-sala1, .section-salas .box-sala1 .box-sala2 .contenido-sala2, .box-sala2 .section-salas .box-sala1 .contenido-sala2, .section-salas .box-sala3 .box-sala2 .contenido-sala2, .box-sala2 .section-salas .box-sala3 .contenido-sala2, .section-salas .box-sala1 .box-studio .contenido-sala2, .box-studio .section-salas .box-sala1 .contenido-sala2, .section-salas .box-sala3 .box-studio .contenido-sala2, .box-studio .section-salas .box-sala3 .contenido-sala2, .box-sala3 .section-salas .box-sala1 .contenido-sala3, .section-salas .box-sala3 .contenido-sala3, .section-salas .box-sala1 .box-studio .contenido-studio, .box-studio .section-salas .box-sala1 .contenido-studio, .section-salas .box-sala3 .box-studio .contenido-studio, .box-studio .section-salas .box-sala3 .contenido-studio {
+    width: 100vw;
+    font-size: 16px;
+    margin: 40px 10px 0 10px; }
+  .section-salas .box-sala2 img, .section-salas .box-studio img {
+    width: 95vw;
+    height: 80vh; }
+  .section-salas .box-sala2 .contenido-sala2, .section-salas .box-studio .contenido-sala2 {
+    width: 100vw;
+    font-size: 16px;
+    margin: 40px 10px 0 10px; }
+  .section-salas .box-sala3 img {
+    width: 95vw;
+    height: 80vh; }
+  .section-salas .box-sala3 .contenido-sala3 {
+    width: 100vw;
+    font-size: 16px;
+    margin: 40px 10px 0 10px; }
+  .section-salas .box-studio img {
+    width: 95vw;
+    height: 80vh; }
+  .section-salas .box-studio .contenido-studio {
+    width: 100vw;
+    font-size: 16px;
+    margin: 40px 10px 0 10px; }
+  /*Galeria.html*/
+  #galeria #carouselgaleria img {
+    height: 80vh; }
+  /*Reservas.html*/
+  .section-reservas h1 {
+    font-size: 26px;
+    padding: 0 10px 0 10px;
+    margin-bottom: -30px; }
+  .contenido-reservas {
+    gap: 30px; }
+    .contenido-reservas .datos-reservas {
+      text-align: center;
+      font-size: 19px; }
+      .contenido-reservas .datos-reservas h2 {
+        font-size: 22px; }
+  .section-reservas .contenido-reservas .maps iframe {
+    width: 100%;
+    height: 50vh; }
+  .section-contact h2 {
+    font-size: 24px; }
+  .section-contact .form-reservas .mb-3 {
+    width: 70vw !important; }
+  .section-contact .form-reservas .btn {
+    font-size: 16px; } }
+
+@media (min-width: 768px) and (max-width: 900px) {
+  /*Barra de Navegacion*/
+  .navbar-nav .nav-item .nav-link {
+    font-size: 20px; }
+  /*Main.index*/
+  .main-container-index {
+    background-position: 80%;
+    font-size: 16px; }
+    .main-container-index .contenido-titulos {
+      width: 65vw;
+      height: 250px; }
+      .main-container-index .contenido-titulos h1 {
+        font-size: 35px; }
+      .main-container-index .contenido-titulos h2 {
+        font-size: 30px; }
+      .main-container-index .contenido-titulos h3 {
+        font-size: 25px; }
+      .main-container-index .contenido-titulos h4 {
+        font-size: 21px; }
+  .contenido-contacto {
+    width: 65vw; }
+    .contenido-contacto h3 {
+      margin-bottom: 20px;
+      font-size: 25px; }
+    .contenido-contacto .btn {
+      margin-bottom: 25px; }
+  /*section-index*/
+  .section-container-index .contenido-equipamiento {
+    font-size: 17px; }
+    .section-container-index .contenido-equipamiento h1 {
+      font-size: 32px; }
+    .section-container-index .contenido-equipamiento h2 {
+      font-size: 25px; }
+    .section-container-index .contenido-equipamiento button {
+      font-size: 17px; }
+  /*footer*/
+  .logo-izq-container .logo {
+    width: 120px;
+    height: 80px; }
+  .logo-der-container .logo {
+    width: 120px;
+    height: 80px; }
+  .full-content-center {
+    font-size: 17px; }
+    .full-content-center h4 {
+      text-align: center; }
+    .full-content-center .logo {
+      width: 120px;
+      height: 80px; }
+  /*nosotros.html*/
+  /*main nosotros.html*/
+  .main-container-nosotoros .imagen-estudio-container img {
+    padding: 0 5px 0 5px;
+    height: 500px; }
+  /*section nosotros.html*/
+  .contenido-nosotros h2 {
+    font-size: 27px; }
+  .contenido-nosotros p {
+    font-size: 22px; }
+  .contenido-servicios h2 {
+    font-size: 27px; }
+  .contenido-servicios p {
+    font-size: 22px; }
+  /* Iconos nosotros.html*/
+  .iconos-servicios-container .iconos {
+    font-size: 19px; }
+    .iconos-servicios-container .iconos h4 {
+      font-size: 18px; }
+  /*imagenes finales nosotros*/
+  .end-img-nosotros div img {
+    height: 70vh; }
+  .boton-galeria-nosotros button {
+    font-size: 18px; }
+  /*Salas.html*/
+  /*contenido-Salas*/
+  main .contenido-salas {
+    font-size: 16px;
+    padding: 0 10px 0 10px; }
+  .section-salas .box-sala1 .contenido-sala1, .section-salas .box-sala3 .contenido-sala1, .section-salas .box-sala1 .box-sala2 .contenido-sala2, .box-sala2 .section-salas .box-sala1 .contenido-sala2, .section-salas .box-sala3 .box-sala2 .contenido-sala2, .box-sala2 .section-salas .box-sala3 .contenido-sala2, .section-salas .box-sala1 .box-studio .contenido-sala2, .box-studio .section-salas .box-sala1 .contenido-sala2, .section-salas .box-sala3 .box-studio .contenido-sala2, .box-studio .section-salas .box-sala3 .contenido-sala2, .box-sala3 .section-salas .box-sala1 .contenido-sala3, .section-salas .box-sala3 .contenido-sala3, .section-salas .box-sala1 .box-studio .contenido-studio, .box-studio .section-salas .box-sala1 .contenido-studio, .section-salas .box-sala3 .box-studio .contenido-studio, .box-studio .section-salas .box-sala3 .contenido-studio {
+    width: 100vw;
+    font-size: 16px;
+    margin: 40px 10px 0 10px; }
+  .section-salas .box-sala2 .contenido-sala2, .section-salas .box-studio .contenido-sala2 {
+    width: 100vw;
+    font-size: 16px;
+    margin: 40px 10px 0 10px; }
+  .section-salas .box-sala3 .contenido-sala3 {
+    width: 100vw;
+    font-size: 16px;
+    margin: 40px 10px 0 10px; }
+  .section-salas .box-studio .contenido-studio {
+    width: 100vw;
+    font-size: 16px;
+    margin: 40px 10px 0 10px; }
+  /*Galeria.html*/
+  #galeria #carouselgaleria img {
+    height: 80vh; }
+  /*Reservas.html*/
+  .section-reservas h1 {
+    font-size: 26px;
+    padding: 0 10px 0 10px;
+    margin-bottom: -30px; }
+  .contenido-reservas {
+    gap: 30px; }
+    .contenido-reservas .datos-reservas {
+      text-align: center;
+      font-size: 21px; }
+      .contenido-reservas .datos-reservas h2 {
+        font-size: 24px; }
+  .section-reservas .contenido-reservas .maps iframe {
+    width: 100%;
+    height: 50vh; }
+  .section-contact h2 {
+    font-size: 26px; }
+  .section-contact .form-reservas .mb-3 {
+    width: 60vw !important; }
+  .section-contact .form-reservas .btn {
+    font-size: 16px; } }
+
+@media (min-width: 901px) and (max-width: 1024px) {
+  /*Main.index*/
+  .main-container-index {
+    background-position: 80%; }
+    .main-container-index .contenido-titulos {
+      width: 65vw;
+      height: 250px; }
+      .main-container-index .contenido-titulos h1 {
+        font-size: 36px; }
+      .main-container-index .contenido-titulos h2 {
+        font-size: 31px; }
+      .main-container-index .contenido-titulos h3 {
+        font-size: 26px; }
+      .main-container-index .contenido-titulos h4 {
+        font-size: 22px; }
+  .contenido-contacto {
+    width: 65vw; }
+    .contenido-contacto h3 {
+      margin-bottom: 20px;
+      font-size: 26px; }
+    .contenido-contacto .btn {
+      margin-bottom: 25px; }
+  /*section-index*/
+  .section-container-index .contenido-equipamiento {
+    font-size: 21px; }
+    .section-container-index .contenido-equipamiento h1 {
+      font-size: 34px; }
+    .section-container-index .contenido-equipamiento h2 {
+      font-size: 27px; }
+    .section-container-index .contenido-equipamiento button {
+      font-size: 17px; }
+  /*Salas.html*/
+  /*contenido-Salas*/
+  main .contenido-salas {
+    font-size: 16px;
+    padding: 0 10px 0 10px; }
+  .section-salas .box-sala1 .contenido-sala1, .section-salas .box-sala3 .contenido-sala1, .section-salas .box-sala1 .box-sala2 .contenido-sala2, .box-sala2 .section-salas .box-sala1 .contenido-sala2, .section-salas .box-sala3 .box-sala2 .contenido-sala2, .box-sala2 .section-salas .box-sala3 .contenido-sala2, .section-salas .box-sala1 .box-studio .contenido-sala2, .box-studio .section-salas .box-sala1 .contenido-sala2, .section-salas .box-sala3 .box-studio .contenido-sala2, .box-studio .section-salas .box-sala3 .contenido-sala2, .box-sala3 .section-salas .box-sala1 .contenido-sala3, .section-salas .box-sala3 .contenido-sala3, .section-salas .box-sala1 .box-studio .contenido-studio, .box-studio .section-salas .box-sala1 .contenido-studio, .section-salas .box-sala3 .box-studio .contenido-studio, .box-studio .section-salas .box-sala3 .contenido-studio {
+    width: 100vw;
+    font-size: 16px;
+    margin: 40px 10px 0 10px; }
+  .section-salas .box-sala2 .contenido-sala2, .section-salas .box-studio .contenido-sala2 {
+    width: 100vw;
+    font-size: 16px;
+    margin: 40px 10px 0 10px; }
+  .section-salas .box-sala3 .contenido-sala3 {
+    width: 100vw;
+    font-size: 16px;
+    margin: 40px 10px 0 10px; }
+  .section-salas .box-studio .contenido-studio {
+    width: 100vw;
+    font-size: 16px;
+    margin: 40px 10px 0 10px; }
+  /*Galeria.html*/
+  #galeria #carouselgaleria img {
+    height: 80vh; }
+  /*Reservas.html*/
+  .section-reservas h1 {
+    font-size: 26px;
+    padding: 0 10px 0 10px;
+    margin-bottom: -30px; }
+  .contenido-reservas {
+    gap: 30px; }
+    .contenido-reservas .datos-reservas {
+      text-align: center;
+      font-size: 21px; }
+      .contenido-reservas .datos-reservas h2 {
+        font-size: 24px; }
+  .section-reservas .contenido-reservas .maps iframe {
+    width: 100%;
+    height: 50vh; }
+  .section-contact h2 {
+    font-size: 26px; }
+  .section-contact .form-reservas .mb-3 {
+    width: 60vw !important; }
+  .section-contact .form-reservas .btn {
+    font-size: 16px; } }
+
+@media (min-width: 1025px) and (max-width: 1253px) {
+  /*Nosotros.html*/
+  .end-img-nosotros {
+    flex-wrap: nowrap; }
+    .end-img-nosotros img {
+      width: 45vw; }
+  /*Salas.html*/
+  /*contenido-Salas*/
+  main .contenido-salas {
+    font-size: 16px;
+    padding: 0 10px 0 10px; }
+  .section-salas .box-sala1 .contenido-sala1, .section-salas .box-sala3 .contenido-sala1, .section-salas .box-sala1 .box-sala2 .contenido-sala2, .box-sala2 .section-salas .box-sala1 .contenido-sala2, .section-salas .box-sala3 .box-sala2 .contenido-sala2, .box-sala2 .section-salas .box-sala3 .contenido-sala2, .section-salas .box-sala1 .box-studio .contenido-sala2, .box-studio .section-salas .box-sala1 .contenido-sala2, .section-salas .box-sala3 .box-studio .contenido-sala2, .box-studio .section-salas .box-sala3 .contenido-sala2, .box-sala3 .section-salas .box-sala1 .contenido-sala3, .section-salas .box-sala3 .contenido-sala3, .section-salas .box-sala1 .box-studio .contenido-studio, .box-studio .section-salas .box-sala1 .contenido-studio, .section-salas .box-sala3 .box-studio .contenido-studio, .box-studio .section-salas .box-sala3 .contenido-studio {
+    width: 100vw;
+    font-size: 16px;
+    margin: 40px 10px 0 10px; }
+  .section-salas .box-sala2 .contenido-sala2, .section-salas .box-studio .contenido-sala2 {
+    width: 100vw;
+    font-size: 16px;
+    margin: 40px 10px 0 10px; }
+  .section-salas .box-sala3 .contenido-sala3 {
+    width: 100vw;
+    font-size: 16px;
+    margin: 40px 10px 0 10px; }
+  .section-salas .box-studio .contenido-studio {
+    width: 100vw;
+    font-size: 16px;
+    margin: 40px 10px 0 10px; }
+  /*Reservas.html*/
+  .contenido-reservas {
+    flex-wrap: nowrap;
+    padding: 0 20px 0 20px; } }

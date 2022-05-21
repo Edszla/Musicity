@@ -1,11 +1,7 @@
 //variables
-$color-opacity:rgba(0, 0, 0, 0.332);
 $gradient-all:(black, rgb(24, 24, 24));
-
-$varios: (
-    'gradiente': (black, rgb(24, 24, 24)),
-    'opacity': rgba(0, 0, 0, 0.332),
-);
+$color-tipografia: (rgb(233, 220, 220));
+$tipografia-all:'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
 
 @mixin logo-derecha {
     grid-area: logo-derecha;
@@ -14,4 +10,19 @@ $varios: (
     &:hover {
         transform: translate(1px);
     }
+}
+
+@mixin boton-index-equipamiento {
+    font-size: 0.7em;
+        padding: 0.5em 1em;
+        margin-top: 0.6em;
+        border-radius: 2em;
+        cursor: pointer;
+        transition-property: height 2s, background-color;
+        transition-duration: 2s;
+        transition-timing-function: linear;
+        &:hover {
+            background-color: black;
+            height: 3.1em;
+        }
 }

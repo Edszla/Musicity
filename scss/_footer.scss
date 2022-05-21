@@ -1,7 +1,7 @@
 /*footer*/
 
 .footer-container {
-    background-image: radial-gradient((black, rgb(24, 24, 24)));
+    background-image: radial-gradient($gradient-all);
     display: grid;
     grid-template-areas: 
     "logo-izquierda     logo-redes    logo-derecha";
@@ -25,7 +25,7 @@
 .full-content-center {
     grid-area: logo-redes;
     display: grid;
-    color: white;
+    color: $color-tipografia;
     justify-items: center;
     grid-row-gap: 1em;
     margin: 1em;
@@ -38,6 +38,9 @@
         font-size: 1.25em;
     }
     .redes-container{
+        a{
+            text-decoration: none;
+        }
         img{
             width: 3.25em;
             height: 3.25em;
@@ -49,10 +52,5 @@
 
 
 .logo-der-container {
-    grid-area: logo-derecha;
-    transform: translate(-4em);
-    transition: all 0.3s;
-    &:hover {
-        transform: translate(1px);
-    }
+    @include logo-derecha;
 }

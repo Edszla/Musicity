@@ -2,15 +2,16 @@
 
 
 #galeria {
-    background-image: radial-gradient((black, rgb(24, 24, 24)));
+    background-image: radial-gradient($gradient-all);
     height:120vh;
-    color: white;
+    color: $color-tipografia;
     display: flex;
     flex-direction: column;
     align-items: center;
     .text-center {
         height: 10em;
-        font-family: cursive;
+        font-family: $tipografia-all;
+        font-style: italic;
     }
     #carouselgaleria {
         width: 95%;
@@ -18,16 +19,19 @@
     img {
         width: 100%;
         height: 90vh;
+        object-fit: cover;
+        object-position: center center;
     }
 }
 
 
 #videos-ensayos {
-    background-image: radial-gradient((black, rgb(24, 24, 24)));
-    color: white;
+    background-image: radial-gradient($gradient-all);
+    color: $color-tipografia;
     .text-center {
         height: 10vh;
-        font-family: cursive;
+        font-family: $tipografia-all;
+        font-style: italic;
     }
     .col-lg-6 {
         padding: 30px;

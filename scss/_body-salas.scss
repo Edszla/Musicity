@@ -1,12 +1,12 @@
 /*salas.html*/
 
 .contenido-salas {
-    background-image: radial-gradient((black, rgb(24, 24, 24)));
+    background-image: radial-gradient($gradient-all);
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: $color-tipografia;
     h1{
         margin: 40px 0 30px 0;
     }
@@ -17,12 +17,12 @@
 }
 
 .section-salas {
-    background-image: radial-gradient((black, rgb(24, 24, 24)));
+    background-image: radial-gradient($gradient-all);
     display: flex;
     flex-direction: column;
     padding-top: 100px;
     gap: 20vh;
-    color: white;
+    color: $color-tipografia;
 }
 
 .box-sala1 {
@@ -38,20 +38,20 @@
             border: 5px solid transparent;
         }
     }
-    .contenido-sala1 {
-        display: flex;
-        width: 38%;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        h4 {
-            font-size: 1.7em;
-        }
-        p{
-            text-align: center;
-            font-size: 1.2em;
-        }
+}
+.contenido-sala1 {
+    display: flex;
+    width: 38%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    h4 {
+        font-size: 1.7em;
+    }
+    p{
+        text-align: center;
+        font-size: 1.2em;
     }
 }
 
@@ -70,79 +70,21 @@
         }
     }
     .contenido-sala2 {
-        display: flex;
-        width: 38%;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        h4 {
-            font-size: 1.7em;
-        }
-        p{
-            text-align: center;
-            font-size: 1.2em;
-        }
+        @extend .contenido-sala1;
     }
-}
+}    
+
 
 .box-sala3 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    img{
-        width: 650px;
-        height: 450px;
-        border-radius: 10%;
-        cursor: pointer;
-        &:hover {
-            border: 5px solid transparent;
-        }
-    }
+    @extend .box-sala1;
     .contenido-sala3 {
-        display: flex;
-        width: 38%;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        h4 {
-            font-size: 1.7em;
-        }
-        p{
-            text-align: center;
-            font-size: 1.2em;
-        }
+        @extend .contenido-sala1;
     }
 }
 
 .box-studio {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;    
-    justify-content: space-around;
-    img{
-        width: 650px;
-        height: 450px;
-        border-radius: 10%;
-        cursor: pointer;
-        &:hover {
-            border: 5px solid transparent;
-        }
-    }
+    @extend .box-sala2;
     .contenido-studio {
-        display: flex;
-        width: 38%;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        h4 {
-            font-size: 1.7em;
-        }
-        p{
-            text-align: center;
-            font-size: 1.2em;
-        }
+        @extend .contenido-sala1;
     }
 }
